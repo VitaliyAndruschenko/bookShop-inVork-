@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet author="- (generated)" id="1675172465980-1">
+        <createSequence sequenceName="author_my_author_id_seq"/>
+    </changeSet>
+    <changeSet author="- (generated)" id="1675172465980-2">
+        <createSequence sequenceName="authors_id_seq"/>
+    </changeSet>
+    <changeSet author="- (generated)" id="1675172465980-3">
+        <createSequence sequenceName="balance_transaction_id_seq"/>
+    </changeSet>
+    <changeSet author="- (generated)" id="1675172465980-4">
+        <createSequence sequenceName="book2author_id_seq"/>
+    </changeSet>
+    <changeSet author="- (generated)" id="1675172465980-5">
+        <createSequence sequenceName="book2genre_id_seq"/>
+    </changeSet>
+    <changeSet author="- (generated)" id="1675172465980-6">
+        <createSequence sequenceName="book2user_id_seq"/>
+    </changeSet>
+    <changeSet author="- (generated)" id="1675172465980-7">
+        <createSequence sequenceName="book2user_type_id_seq"/>
+    </changeSet>
+    <changeSet author="- (generated)" id="1675172465980-8">
+        <createSequence sequenceName="book_my_book_id_seq"/>
+    </changeSet>
+    <changeSet author="- (generated)" id="1675172465980-9">
+        <createSequence sequenceName="book_my_file_id_seq"/>
+    </changeSet>
+    <changeSet author="- (generated)" id="1675172465980-10">
+        <createSequence sequenceName="book_review_id_seq"/>
+    </changeSet>
+    <changeSet author="- (generated)" id="1675172465980-11">
+        <createSequence sequenceName="book_review_like_id_seq"/>
+    </changeSet>
+    <changeSet author="- (generated)" id="1675172465980-12">
+        <createSequence sequenceName="books_id_seq"/>
+    </changeSet>
+    <changeSet author="- (generated)" id="1675172465980-13">
+        <createSequence sequenceName="document_id_seq"/>
+    </changeSet>
+    <changeSet author="- (generated)" id="1675172465980-14">
+        <createSequence sequenceName="faq_id_seq"/>
+    </changeSet>
+    <changeSet author="- (generated)" id="1675172465980-15">
+        <createSequence sequenceName="genre_id_seq"/>
+    </changeSet>
+    <changeSet author="- (generated)" id="1675172465980-16">
+        <createSequence sequenceName="message_id_seq"/>
+    </changeSet>
+    <changeSet author="- (generated)" id="1675172465980-17">
+        <createSequence sequenceName="test_entities_id_seq"/>
+    </changeSet>
+    <changeSet author="- (generated)" id="1675172465980-18">
+        <createSequence sequenceName="user_contact_id_seq"/>
+    </changeSet>
+    <changeSet author="- (generated)" id="1675172465980-19">
+        <createSequence sequenceName="users_id_seq"/>
+    </changeSet>
+</databaseChangeLog>
